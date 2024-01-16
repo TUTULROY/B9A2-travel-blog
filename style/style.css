@@ -18,7 +18,7 @@ nav {
     display: flex;
     margin-left: 90px;
 }
-nav h3 span{
+.color{
     color: #FF5400;
 }
 nav > ul {
@@ -278,4 +278,33 @@ border: #FFF;
     background: #FF5400;
     border: none;
     color: #fff;
+}
+.footer{
+    background: rgba(19, 19, 24, 0.05);
+    
+    
+}
+.footer-container{
+    text-align: center;
+    width: 1440px;
+height: 502px; 
+}
+   
+.footer-details{
+    display: flex;
+    position: relative;
+    
+    margin-left: 600px;
+    top: 50px;
+
+    margin-bottom: 50px;
+
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+   margin-left: 600px;
+    width: 176px;
+height: 24px;
+flex-shrink: 0;
 }

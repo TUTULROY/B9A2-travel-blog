@@ -1,3 +1,13 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,800&display=swap');
+
+*{
+    
+font-family: 'Work Sans', sans-serif;
+}
+
+
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -58,7 +68,7 @@ font-weight: 800;
     border-radius: 8px;
 padding: 16px;
 align-items: flex-start;
-gap: 24px;
+gap: 28px;
 margin: 50px;
 background: rgba(255,255,255,0.30);
 
@@ -71,6 +81,7 @@ background: #FFF;
 border: #FFF;
 }
 .btn-bg{
+   
     width: 174px;
 height: 52px;
 flex-shrink: 0;
@@ -78,6 +89,7 @@ border-radius: 8px;
 background: #FF5400;
 border: #FFF;
 color: #FFF;
+
 }
 
 .popular-container{
@@ -175,4 +187,95 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 26px; 
+}
+
+
+/* card section */
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.first-card{
+
+width: 573px;
+height: 284px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+
+}
+.second-card{
+    width: 573px;
+height: 284px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+
+}
+.third-card{
+    align-items: center;
+    width: 573px;
+height: 284px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+}
+
+.card-2{
+    margin-top: 50px;
+    margin-left: 500px;
+    
+}
+
+.newsletter-container{   
+margin-top: 100px;
+display: flex;
+position: relative;
+justify-content: space-between;
+}
+.newsletter-details{
+    position: relative;
+    margin-left: 100px;
+    width: 400px;
+    height: 320px;
+    padding: 50px;
+    border: 2px solid #FF5400;
+    border-radius: 16px;
+}
+
+.newsletter-input{
+    
+    margin-bottom: 10px ;
+    width: 393px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+border: #FFF;
+}
+
+.newsletter-img{
+  
+    margin-left: 50px;
+}
+.discount-btn{
+    position: relative;
+    top: -171px;
+    left: 341px;
+    width: 324px;
+    height: 120px; 
+    font-family: Mulish; 
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+    border: none;
+    color: #fff;
 }
